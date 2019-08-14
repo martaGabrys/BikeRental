@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="b0">BRAND</string>
+    <string name="b1">COLOR</string>
+    <string name="b3">AVAILABILITY</string>
+
+    <string-array name="filter_type">
+        <item>@string/b0</item>
+        <item>@string/b1</item>
+        <item>@string/b3</item>
+    </string-array>
+
+    <string name="app_name">BikeRental</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="email">Email</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="login_success">Successful log-in</string>
+    <string name="login_error_email">Email should have at least 5 characters</string>
+    <string name="login_error_password">Password should have at least 5 characters</string>
+    <string name="login">Login</string>
+    <string name="bikes_error_message">something wrong</string>
+    <string name="bikes_available">AVAILABLE</string>
+    <string name="bikes_price_text">1 HOUR RENT</string>
+    <string name="wallet_welcome_msg">Please, declare amount of cash you are able to pay for at least 1 hour rent.</string>
+    <string name="wallet_cash_amount">Cash amount</string>
+    <string name="declare">DECLARE</string>
+    <string name="declare_success">Successfully declared !</string>
+    <string name="FILE_PREF_NAME">com.app.FILE_PREFS</string>
+    <string name="MAIL">MAIL</string>
+    <string name="WALLET">WALLET</string>
+    <string name="FILTER">CHOOSE FILTER TYPE</string>
+    <string name="COLOR">COLOR</string>
+    <string name="bikes_not_available">NOT AVAILABLE</string>
+    <string name="RENT">RENT</string>
+    <string name="MY_ORDER">MY ORDER</string>
+    <string name="rented_bikes">ALL YOUR RENTED BIKES</string>
+    <string name="PAY">PAY</string>
+    <string name="CASH_TO_PAY">YOU HAVE TO PAY: </string>
+    <string name="CANCEL">CANCEL</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_bike_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    android:elevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_bike_item"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/ic_directions_bike_black_24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:id="@+id/item_bike_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+            app:layout_constraintStart_toEndOf="@id/image_bike_item"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="20dp"
+            android:textAlignment="viewStart"
+            />
+
+        <TextView
+            android:id="@+id/item_bike_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintStart_toEndOf="@id/image_bike_item"
+            app:layout_constraintBottom_toTopOf="@id/item_bike_price_text"
+            android:layout_marginStart="20dp"
+            android:textAlignment="viewStart"
+            />
+
+        <TextView
+            android:id="@+id/item_bike_price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintStart_toEndOf="@id/image_bike_item"
+            app:layout_constraintBottom_toTopOf="@id/item_bike_price"
+            android:text="@string/bikes_price_text"
+            android:layout_marginStart="20dp"
+            android:textAlignment="viewStart"
+            />
+
+        <TextView
+            android:id="@+id/item_bike_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintStart_toEndOf="@id/image_bike_item"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginStart="20dp"
+            android:textAlignment="viewStart"
+            />
+
+        <TextView
+            android:id="@+id/item_bike_available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textAlignment="viewEnd"
+            android:layout_marginEnd="20dp"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RENT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textAlignment="center"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
